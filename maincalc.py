@@ -1,4 +1,4 @@
-from Calculator.add_work import addition
+
 import add_work
 import sub_work
 import mul_work
@@ -19,7 +19,7 @@ while True :
          b=float(input("Enter Second Number:"))
 
          if choice == '1' :
-             print(a,"+",b,"=",addition(a,b))
+             print(a,"+",b,"=",add(a,b))
          elif choice == '2' :
              print(a,"-",b,"=",sub(a,b))
          elif choice == '3' :
