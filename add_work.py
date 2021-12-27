@@ -1,3 +1,3 @@
 #This is an ADD FUnc.
-def add(a,b):
+def addition(a,b):
     return a+b
